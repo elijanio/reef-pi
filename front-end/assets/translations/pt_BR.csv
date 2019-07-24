@@ -1,0 +1,196 @@
+Key,Translation
+ok,Ok
+select,Selecionar
+enabled,habilitar
+disabled,Desabilitar
+cancel,cancelar
+done,Pronto
+loading,Carregando
+documentation,Documentação
+errors,Erros
+edit,Editar
+analog_input,Entrada Analógica
+inlet,Inlet
+delete,Apagar
+since,Desde
+running,Correr
+are_you_sure,você tem certeza?
+clear,Limpar
+name,Nome
+update,Atualizar
+add,Adicionar
+save,Salvar
+none,nenhum
+alerts,Alertas
+unit,Unidades
+configure,Configurar
+language:language,Idioma
+language:fr,Français
+language:en,English
+language:de,Deutsch
+language:es,Español
+language:it,Italiano
+language:hi,हिन्दी
+language:fa,فارسی
+language:pt,Português (Portugal)
+language:pt_BR,Português (Brazil)
+configuration:authentication:credentials,Credenciais
+configuration:authentication:error_user,Deve inserir um nome de usuário
+configuration:authentication:error_pass,Deve inserir uma senha
+configuration:tab:settings,Configurações
+configuration:tab:connectors,Ligações
+configuration:tab:authentication,Autenticação
+configuration:tab:drivers,Controladores
+configuration:tab:errors,Erros
+configuration:tab:telemetry,Telemetria
+configuration:tab:admin,Admin
+configuration:tab:about,Sobre
+configuration:admin:sign_out,Desligar o Login
+configuration:admin:reload,Recarregar
+configuration:admin:reboot,Reninciar
+configuration:admin:poweroff,Desligar
+configuration:about:version,Versão
+configuration:about:website,Site
+configuration:about:status,Status
+configuration:about:current_time,Hora atual
+configuration:about:uptime,tempo de atividade
+signin:username,Nome de usuário
+signin:password,Senha
+signin:signin,Entrar
+signin:invalidcredentials,Credenciais inválidas
+capabilities:dashboard,Painel Inicial
+capabilities:equipment,Equipamento
+capabilities:timers,Timers
+capabilities:lights,Luzes
+capabilities:lighting,Iluminação
+capabilities:temperature,Temperatura
+capabilities:ato,ATO
+capabilities:ph,pH
+capabilities:dosing_pumps,Bombas dosadoras
+capabilities:doser,Dose
+capabilities:macros,Macros
+capabilities:macro,Macro
+capabilities:camera,Câmera
+capabilities:manager,Gerenciamento
+capabilities:configuration,Configuração
+capabilities:log,Log
+capabilities:dev_mode,Modo Dev
+capabilities:health_check,Verificação de Estado
+log:time,Tempo
+log:emitter,Emissor
+log:type,Tipo
+log:content,Conteúdo
+dashboard:back_to_dashboard,Voltar para o Painel Inicial
+configuration:settings:interface,Interface
+configuration:settings:name,Nome
+configuration:settings:address,Endereço
+configuration:settings:rpi_pwm_freq,Frequência Pwm Rpi
+configuration:settings:notification,Notificação
+configuration:settings:display,Tela
+configuration:settings:use_https,Usar HTTPS
+configuration:settings:enable_profiling,habilitar o perfil
+configuration:settings:enable_prometheus,habilitar o prometheus
+configuration:settings:capabilities,Capacidades
+configuration:settings:alert_health_check,Avisos de Estado Geral
+configuration:settings:max_memory,Memória máxima
+configuration:settings:max_cpu,Máximo da CPU
+configuration:settings:name_required,Nome é obrigatório
+configuration:settings:network_interface_required,Nome da interface de rede é obrigatório
+configuration:settings:network_address_required,Endereço de rede é obrigatório
+configuration:settings:capabilities_required,Capacidades requeridas
+health_chart:cpu_memory,CPU/Memória
+fatal_error:fatal_error,Erro Fatal
+fatal_error:connection_lost,Conexão perdida
+fatal_error:troubleshoot,Problemas
+fatal_error:message,Ocorreu um erro por favor renincie o servidor.
+cron:day_of_month,dia do mês
+cron:hour,Hora
+cron:minute,Minuto
+cron:second,Segundos
+color_picker:choose,Escolher
+collapsible:edit,Editar
+collapsible:delete,Apagar
+timers:equipment:equipment,Equipamentos
+timers:equipment:action,Ação
+timers:equipment:revert,Reverter
+timers:equipment:on,Ligado
+timers:equipment:off,Desligado
+ato:name_required,Name é Obrigatório
+ato:status_required,ATO Status é Obrigatório
+ato:inlet_required,Entrada obrigatório
+ato:chk_freq,Verificar a frequência
+ato:chk_freq_required,É obrigatório verificar a frequência
+ato:chk_freq_number,A frequência deve ser um numérica
+ato:chk_freq_number_value,A frequência de ser de 1 segundo ou maior
+ato:threshold_required,O limite é obrigatório quando a notificação está ativada
+ato:threshold_value,O limite deve ser um número
+ato:warning_delete,Esta ação excluirá
+ato:ato_usage,Utilização do ATO
+ato:ato_status,Estado do ATO
+ato:control_pump,Controle da Bomba
+ato:control_pump,Controle da Bomba
+ato:control_pump,Controle da Bomba
+ato:alert_after,Alertar após
+ato:disable_on_alert,Desativar alerta
+ato:total_seconds_pump_on,Número de segundos para ligar a bomba
+ato:validation_error,ATO Erro nas configurações, por favor corrija e tente novamente
+timers:name_required,Name é Obrigatório
+timers:timer_status_required,Estado do temporizador é obrigatório
+timers:day_required,Dia é obrigatório
+timers:hour_required,as horas são obrigatórias
+timers:minute_required,Minutos são obrigatório
+timers:second_required,os Segundos são obrigatório
+timers:type_required,Tipo é Obrigatório
+timers:equipment_required,Equipmento é Obrigatório
+timers:on_required,Ligar é Obrigatório
+timers:duration_required,Duração é Obrigatória
+timers:subject_required,o Assunto é Obrigatório
+timers:message_required,a Messagem é Obrigatória
+timers:validation_error,Erro nas configurações de timmer, por favor corrija e tente novamente
+timers:turn_on,Ligar é Obrigatório
+timers:turn_off,Desligar
+timers:and_then,e depois
+timers:turn_back_on,Voltar a ligar
+timers:turn_back_off,Voltar a desligar
+timers:stay_on,Manter ligado
+timers:stay_off,Manter desligado
+second_s,segundos
+sec,sec
+timers:sec,sec
+timers:after,após
+timers:subject,Assunto
+timers:message,Mensagem
+timers:timer_status,Estado do Temporizador
+timers:function,Função
+timers:equipment,Equipamento é Obrigatório
+timers:reminder,Lembrete
+temperature:temperature,Temperatura
+temperature:heater_cooler,Aquecedor/refrigeração
+temperature:chart_minimum,Valor minimo do gráfico
+temperature:chart_maximum,Valor Maximo do gráfico
+temperature:validation_error,As configurações de temperatura não podem ser salvas devido a erros de validação. Por favor, corrija os erros e tente novamente.
+temperature:sensor,Sensor
+temperature:sensor_status,Estado do Sensor
+temperature:celcius,Celcius
+temperature:fahrenheit,Fahrenheit
+ph:calibrate,Calibrar
+ph:midpoint,Ponto médio
+ph:second_point,Segundo ponto
+ph:current_reading,Leitura Atual
+ph:run_calibration,Executar a calibração
+ph:validation_error,Erro nas configurações dp Ph, por favor corrija e tente novamente
+ph:status,Estado do Ph
+ph:check_frequency,Verificar a frequência
+ph:alert_below,Alerta abaixo de
+ph:alert_above,Alerta acima de
+ph:warn_delete,Esta ação excluirá
+ph:name_required,Um nome é obrigatório
+ph:status_required,O status é obrigatório
+ph:period_required,É obrigatório verificar a frequência
+ph:period_type,Verificar a frequência deve ser um número
+ph:period_min,Verificar a frequência deve ser superior a 1
+ph:threshold_required, Obrigatório estar ligado o limite de alertas
+ph:threshold_type,Limite tem que ser nimérico
+ph:threshold_less_than,O alerta inferior deve ser menor que o alerta superior
+ph:threshold_greater_than,O alerta superior tem que ser maior que o alerta inferior
+ph:analog_input_required,Entrada analógica é obrigatória
